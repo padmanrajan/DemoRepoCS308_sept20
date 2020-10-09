@@ -1,21 +1,23 @@
 # this is the skeleton python code.
 
+import numpy as np
 
 # Soma
-#def getFirstWord():
+def getFirstWord(string):
 	# Write the code here
-
+   word_list = (string.split())
+   return word_list[0]	
 
 
 # Avantika
-#def getLastWord(string):
+def getLastWord(string):
    word_list = str.split()
    return word_list[-1]
 	
 
 
 # Paddy
-#def getNumWords():
+def getNumWords(string):
 	# Write code here
 
 	print("adding a new line on Thursday 8 Oct")
