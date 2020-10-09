@@ -27,6 +27,10 @@ def exptWork(string):
     return('This is expt ' + string)
 
 
+def exptWork2(string):
+    return('This is expt 2 ' + string)
+
+
 str = 'The Good The Bad and The Ugly'
 print(str)
 print(getFirstWord(str))
@@ -34,6 +38,7 @@ print(getLastWord(str))
 print(getNumWords(str))
 print(swapCase(str))
 print(exptWork(str))
+print(exptWork2(str))
 
 str = 'The Shawshank Redumption'
 print(str)
@@ -42,6 +47,7 @@ print(getLastWord(str))
 print(getNumWords(str))
 print(swapCase(str))
 print(exptWork(str))
+print(exptWork2(str))
 
 
 
