@@ -1,7 +1,5 @@
 # this is the skeleton python code.
 
-import numpy as np
-
 # Soma
 def getFirstWord(string):
 	# Write the code here
@@ -19,11 +17,11 @@ def getLastWord(string):
 # Paddy
 def getNumWords(string):
 	# Write code here
+	return(len(string.split()))
 
-	print("adding a new line on Thursday 8 Oct")
-	print("this is a new update by paddy 8 oct")
 
-	return "hello!"
+def swapCase(string):
+    return(str.swapcase())
 
 
 str = 'The Good The Bad and The Ugly'
@@ -31,7 +29,14 @@ print(str)
 print(getFirstWord(str))
 print(getLastWord(str))
 print(getNumWords(str))
+print(swapCase(str))
 
+str = 'The Shawshank Redumption'
+print(str)
+print(getFirstWord(str))
+print(getLastWord(str))
+print(getNumWords(str))
+print(swapCase(str))
 
 
 
